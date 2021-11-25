@@ -14,4 +14,3 @@ H:JNB TI,H
 CLR TI
 RET
 END
-	
