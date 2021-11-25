@@ -1,0 +1,16 @@
+org 0000h
+mov 40h,#05h
+mov 41h,#55h
+mov 42h,#06h
+mov 43h,#1Ah
+mov 44h,#09h
+mov r0,#40h
+mov r2,#05h
+mov b,r2
+clr a
+loop:add a,@r0
+inc r0
+djnz r2,loop
+div ab
+mov 55h,a
+end
